@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_display">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/image"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/shift" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/image"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/student" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/hourglass" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/teach" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/editText5"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/note" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/editText3"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/connection" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/letterb" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="120sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:text="@string/attendence"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:text="Students"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        android:text="@string/Batches"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="16dp"
+        android:text="Portal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="120sp"
+        android:layout_height="30sp"
+        android:layout_below="@id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:text="Fee"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="120sp"
+        android:layout_height="30sp"
+        android:layout_below="@id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:text="Notes"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

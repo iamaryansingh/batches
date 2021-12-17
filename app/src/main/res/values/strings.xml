@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">batches1</string>
+    <string name="Student">Student</string>
+    <string name="Batches">Batches</string>
+    <string name="Teacher">Teacher</string>
+    <string name="todo">TODO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Notepad">Notepad</string>
+    <string name="attendence">Attendence</string>
+    <string name="shared_preferences">sharde_preferences</string>
+
+
+</resources>

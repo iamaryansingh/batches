@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/letterb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/letterb"
+     />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN AS :"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@id/letterb"
+        android:layout_centerInParent="true"
+      />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/custom_button"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:outlineSpotShadowColor="@color/colourmore"
+        android:shadowColor="@color/colourmore"
+        android:padding="10dp"
+        android:text="Tutor"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:padding="10dp"
+        android:background="@drawable/custom_button"
+        android:layout_below="@+id/button"
+        android:layout_centerInParent="true"
+        android:shadowColor="@color/colourmore"
+        android:textAlignment="center"
+        android:text="School Teacher"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+
+
+
+</RelativeLayout>

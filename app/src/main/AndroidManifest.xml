@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.batches1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Batches"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".bathes_add.view_batches">        </activity>
+        <activity android:name=".fees" />
+
+        <activity android:name=".fee_add.fee_11class" />
+        <activity android:name=".fee_add.fee_12class" />
+        <activity android:name=".fee_add.fee_10class" />
+        <activity android:name=".fee_add.fee_9class" />
+        <activity android:name=".fee_add.fee_mix1" />
+        <activity android:name=".fee_add.fee_mix2" />
+
+
+        <activity android:name=".fee_view.fee_12view" />
+        <activity android:name=".fee_view.fee_11view" />
+        <activity android:name=".fee_view.fee_10view" />
+        <activity android:name=".fee_view.fee_9view" />
+        <activity android:name=".fee_view.fee_mix1view" />
+        <activity android:name=".fee_view.fee_mix2view" />
+
+
+        <activity android:name=".fee_payview.fee_12payview" />
+        <activity android:name=".fee_payview.fee_11payview" />
+        <activity android:name=".fee_payview.fee_10payview" />
+        <activity android:name=".fee_payview.fee_9payview" />
+        <activity android:name=".fee_payview.fee_mix1payview" />
+        <activity android:name=".fee_payview.fee_mix2payview" />
+
+
+        <activity android:name=".bathes_add.view_batches9" />
+        <activity android:name=".bathes_add.view_batches11" />
+        <activity android:name=".bathes_add.view_batches10" />
+        <activity android:name=".bathes_add.view_batchesmix1" />
+        <activity android:name=".bathes_add.view_batchesmix2" />
+
+
+
+
+        <activity android:name=".batches" />
+        <activity android:name=".batches_view.batch_12" />
+        <activity android:name=".batches_view.batch_11" />
+        <activity android:name=".batches_view.batch_10" />
+        <activity android:name=".batches_view.batch_9" />
+        <activity android:name=".batches_view.batch_mix1" />
+        <activity android:name=".batches_view.batch_mix2" />
+
+
+        <activity android:name=".batches_present.batches_present_12" />
+        <activity android:name=".batches_present.batches_present_11" />
+        <activity android:name=".batches_present.batches_present_10" />
+        <activity android:name=".batches_present.batches_present_9" />
+        <activity android:name=".batches_present.batches_present_mix1" />
+        <activity android:name=".batches_present.batches_present_mix2" />
+
+        <activity android:name=".batches_absent.batches_absent_12" />
+        <activity android:name=".batches_absent.batches_absent_11" />
+        <activity android:name=".batches_absent.batches_absent_10" />
+        <activity android:name=".batches_absent.batches_absent_9" />
+        <activity android:name=".batches_absent.batches_absent_mix1" />
+        <activity android:name=".batches_absent.batches_absent_mix2" />
+
+
+
+
+
+
+
+
+
+        <activity android:name=".attendence_view.attendence_mix2view" />
+        <activity android:name=".attendence_view.attendence_mix1view" />
+        <activity android:name=".attendence_view.attendence_9view" />
+        <activity android:name=".attendence_view.attendence_10view" />
+        <activity android:name=".attendence_view.attendence_11view" />
+        <activity android:name=".attendence_view.attendence_12view" />
+        <activity android:name=".Attendence" />
+        <activity android:name=".students_view.student_mix2view" />
+        <activity android:name=".students_view.students_mix1view" />
+        <activity android:name=".students_view.students_9view" />
+        <activity android:name=".students_view.students_10view" />
+        <activity android:name=".students_view.students_11view" />
+        <activity android:name=".students_view.students_12view" />
+        <activity android:name=".Notepad.notepad" />
+        <activity
+            android:name=".Notepad.notepad_list"
+            android:label="@string/Notepad"
+            android:theme="@style/AppTheme.DarkActionBar" />
+        <activity android:name=".students_add.Main11Activity" />
+        <activity android:name=".students_add.Main10Activity" />
+        <activity android:name=".students_add.Main9Activity" />
+        <activity android:name=".students_add.Main8Activity" />
+        <activity android:name=".students_add.Main7Activity" />
+        <activity android:name=".students_add.Main6Activity" />
+        <activity android:name=".students" />
+        <activity android:name=".main_display" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

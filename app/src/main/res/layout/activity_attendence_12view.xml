@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".attendence_view.attendence_12view">
+
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/letterb" />
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        >
+    <ListView
+        android:id="@+id/newlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+
+    </ListView>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:outlineSpotShadowColor="@color/colourmore"
+        android:id="@+id/textView2"
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45sp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:text="attendance"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <!--<EditText-->
+        <!--android:id="@+id/attenddate"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginEnd="198dp"-->
+        <!--android:layout_marginBottom="560dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="YYYY-MM-DD"-->
+        <!--android:inputType="date"-->
+        <!--android:textColorHint="@color/colorAccent" />-->
+</RelativeLayout>

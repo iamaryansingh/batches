@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#dcecfa"
+    android:layout_height="match_parent"
+    tools:context=".students">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/letterb"
+            android:background="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:text="attendance"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp"
+            >
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_centerInParent="true"
+                android:text="class12th"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp"
+            >
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_centerInParent="true"
+                android:text="class11th"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp"
+            >
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_centerInParent="true"
+                android:text="class10th"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp"
+            >
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_centerInParent="true"
+                android:text="class 9th"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp"
+            >
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_centerInParent="true"
+                android:text="class mix1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp"
+            >
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_centerInParent="true"
+                android:text="class mix2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

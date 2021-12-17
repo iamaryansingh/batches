@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fee_add.fee_12class">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/letterb"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="enter name"
+        android:inputType="text"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/fee"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="fee"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/fee2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="fee to pay"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+
+       <!--android:id="@+id/textView2"-->
+       <!--android:layout_width="450dp"-->
+       <!--android:layout_height="50dp"-->
+        <!--android:layout_marginTop="45sp"-->
+        <!--android:background="@color/colorPrimaryDark"-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="fee"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="30dp"/>-->
+
+        <!--android:textSize="30dp"/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/newdate"
+        android:layout_height="50sp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:hint="month year"
+        android:textSize="25sp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="100dp"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Add"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Del"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_button"
+            android:text="Delete"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Mod"
+        android:layout_width="100dp"
+        android:layout_height="50sp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button"
+        android:text="Modify"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/Paid"
+            android:layout_width="150dp"
+            android:layout_height="50sp"
+            android:layout_margin="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/custom_background"
+            android:text="Paid"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Npaid"
+            android:layout_width="150dp"
+            android:layout_height="50sp"
+           android:layout_margin="20dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/custom_background"
+            android:text="Not Paid"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Send Message"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

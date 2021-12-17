@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".bathes_add.view_batches">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:src="@drawable/letterb"
+        android:background="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45sp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:text="attendance list"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="5dp"
+        android:hint="enter name"
+        android:inputType="text"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/newdate"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@+id/textView2"
+       android:layout_marginTop="60dp"
+        android:hint="date"
+        android:inputType="date"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Viewab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button"
+        android:text="   view absent   "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Via"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+        android:background="@drawable/custom_background"
+        android:text="    view attendance    "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Viewp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_below="@id/textView2"
+        android:layout_marginTop="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/custom_button"
+        android:text="   view present   "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tosendmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/Via"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button"
+        android:text="                    send message                    "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
